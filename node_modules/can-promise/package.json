@@ -1,0 +1,28 @@
+{
+  "name": "can-promise",
+  "version": "0.0.1",
+  "description": "Tiny module for checking if Promise is globally available",
+  "main": "index.js",
+  "files": ["index.js"],
+  "scripts": {
+    "test": "tape *.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vigreco/can-promise.git"
+  },
+  "keywords": ["promise", "global", "available", "check"],
+  "author": "Vincenzo Greco <greco.vincenzo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vigreco/can-promise/issues"
+  },
+  "homepage": "https://github.com/vigreco/can-promise#readme",
+  "devDependencies": {
+    "semver": "^5.4.1",
+    "tape": "^4.8.0"
+  },
+  "dependencies": {
+    "window-or-global": "^1.0.1"
+  }
+}
